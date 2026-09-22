@@ -26,6 +26,7 @@ h1 {
   font-size: 1.75rem;
   line-height: 1.4;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .subtitle {
@@ -103,6 +104,11 @@ footer {
 
 @media (max-width: 600px) {
   main { padding-top: 36px; }
+  h1 {
+    font-size: 1.75rem;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
   .entry-heading { display: block; }
   time { display: block; margin-top: 2px; }
 }
