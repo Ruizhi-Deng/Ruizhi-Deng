@@ -3,161 +3,110 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Ruizhi Deng — robotics researcher and engineering student working on robot learning, control, and embedded systems.">
-  <meta name="theme-color" content="#f5f7fb">
-  <title>Ruizhi Deng | Robotics & Embedded Systems</title>
-  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+  <meta name="description" content="Ruizhi Deng — robotics, control, and embedded systems.">
+  <title>Ruizhi Deng</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <a class="wordmark" href="#top" aria-label="Ruizhi Deng, home">RD<span>.</span></a>
-    <nav aria-label="Primary navigation">
-      <a href="#research">Research</a>
-      <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <main>
+    <header>
+      <h1>Ruizhi Deng</h1>
+      <p class="subtitle">Robotics · Control · Embedded Systems</p>
+      <p>I am pursuing dual B.S. degrees in Mechanical Engineering at Shanghai Jiao Tong University and Computer Engineering at the University of Michigan. I am interested in building physical robotic systems that connect mechanical design, embedded computing, learning, and control.</p>
+      <p class="links">
+        <a href="mailto:rzdeng@umich.edu">Email</a>
+        <a href="https://github.com/Ruizhi-Deng">GitHub</a>
+        <a href="https://www.linkedin.com/in/ruizhi-deng">LinkedIn</a>
+        <a href="Ruizhi_Deng_Resume.pdf">Résumé</a>
+      </p>
+    </header>
 
-  <main id="main">
-    <section class="hero" id="top">
-      <div class="hero-copy">
-        <p class="eyebrow">Robotics · Control · Embedded Systems</p>
-        <h1>Ruizhi<br>Deng</h1>
-        <p class="intro">I build physical robotic systems that connect mechanical design, embedded computing, learning, and control.</p>
-        <div class="hero-links" aria-label="Contact links">
-          <a class="button primary" href="mailto:rzdeng@umich.edu">Email me</a>
-          <a class="button" href="Ruizhi_Deng_Resume.pdf">Résumé</a>
+    <section>
+      <h2>Research Experience</h2>
+      <article>
+        <div class="entry-heading">
+          <h3>Research Assistant, HDR Lab</h3>
+          <time>Mar 2026 – Present</time>
         </div>
-      </div>
-      <div class="portrait-wrap" aria-label="Portrait of Ruizhi Deng">
-        <span class="portrait-index">01</span>
-        <img class="portrait" src="https://avatars.githubusercontent.com/u/137520965?v=4" alt="Ruizhi Deng" width="460" height="460">
-        <p>Dual B.S. candidate<br>SJTU × University of Michigan</p>
-      </div>
+        <p class="institution">University of Michigan · Advised by <a href="https://robotics.umich.edu/people/faculty/xiaonan-sean-huang/">Prof. Xiaonan Huang</a></p>
+        <p>Designed a cable-driven soft manipulator for pick-and-place and trajectory-following tasks. Developed residual-network and receding-horizon control methods to reduce the sim-to-real gap, achieving inverse-kinematics tip accuracy within 5 mm.</p>
+        <p><strong>IROS 2026 Late Breaking Results:</strong> “Residual-Corrected Implicit Mechanics for Actionable Digital Twins of Cable-Driven Soft Robots”</p>
+      </article>
+
+      <article>
+        <div class="entry-heading">
+          <h3>Research Assistant, RAP-Lab</h3>
+          <time>Nov 2025 – Present</time>
+        </div>
+        <p class="institution">Shanghai Jiao Tong University · Advised by <a href="https://wonderren.github.io/">Prof. Zhongqiang Ren</a></p>
+        <p>Co-proposed a ROS 2 path-planning method for efficient exploration of unknown environments. Validated it on a four-wheel robot in complex indoor and outdoor environments, reducing completion time by up to 12% over the compared state of the art.</p>
+        <p><strong>ISRR 2026:</strong> “RPV*: Routing with Probabilistic Vertices and Its Use in Autonomous Exploration”</p>
+      </article>
+
+      <article>
+        <div class="entry-heading">
+          <h3>Programmer, SJTU VEX Team</h3>
+          <time>Jun 2024 – Aug 2025</time>
+        </div>
+        <p>Improved C++ odometry, localization, chassis control, and trajectory tracking, and refactored the legacy codebase for future iterations.</p>
+      </article>
     </section>
 
-    <section class="section" id="research">
-      <div class="section-heading">
-        <p class="section-number">02</p>
-        <h2>Research</h2>
-      </div>
-      <div class="research-list">
-        <article class="entry featured">
-          <div class="entry-meta">
-            <p>HDR Lab · University of Michigan</p>
-            <time>Mar 2026 — Present</time>
-          </div>
-          <div class="entry-body">
-            <h3>Cable-driven soft manipulation</h3>
-            <p>Designed a cable-driven soft manipulator for pick-and-place and trajectory-following tasks. Developed residual-network and receding-horizon control methods to reduce the sim-to-real gap, achieving inverse-kinematics tip accuracy within 5 mm.</p>
-            <p class="publication"><span>IROS 2026 LBR</span> “Residual-Corrected Implicit Mechanics for Actionable Digital Twins of Cable-Driven Soft Robots”</p>
-            <p class="advisor">Advised by <a href="https://robotics.umich.edu/people/faculty/xiaonan-sean-huang/">Prof. Xiaonan Huang</a></p>
-          </div>
-        </article>
+    <section>
+      <h2>Projects</h2>
+      <article>
+        <div class="entry-heading">
+          <h3><a href="https://github.com/Ruizhi-Deng/rock-paper-scissors-robot">Rock-Paper-Scissors Robot</a></h3>
+          <time>2026</time>
+        </div>
+        <p>Built an STM32-based interactive robot integrating a camera, LCD, game logic, and software modules across the system. The completed robot achieved a winning rate near 100%.</p>
+      </article>
 
-        <article class="entry">
-          <div class="entry-meta">
-            <p>RAP-Lab · Shanghai Jiao Tong University</p>
-            <time>Nov 2025 — Present</time>
-          </div>
-          <div class="entry-body">
-            <h3>Autonomous robotic exploration</h3>
-            <p>Co-proposed a ROS 2 path-planning method for efficient exploration of unknown environments. Validated it on a four-wheel robot in complex indoor and outdoor environments, reducing completion time by up to 12% over the compared state of the art.</p>
-            <p class="publication"><span>ISRR 2026</span> “RPV*: Routing with Probabilistic Vertices and Its Use in Autonomous Exploration”</p>
-            <p class="advisor">Advised by <a href="https://wonderren.github.io/">Prof. Zhongqiang Ren</a></p>
-          </div>
-        </article>
-
-        <article class="entry compact">
-          <div class="entry-meta">
-            <p>SJTU VEX Team</p>
-            <time>Jun 2024 — Aug 2025</time>
-          </div>
-          <div class="entry-body">
-            <h3>Robotics programmer</h3>
-            <p>Improved C++ odometry, localization, chassis control, and trajectory tracking, while refactoring the legacy codebase for future iterations.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section split-section" id="projects">
-      <div class="section-heading">
-        <p class="section-number">03</p>
-        <h2>Selected projects</h2>
-      </div>
-      <div class="project-grid">
-        <article class="project">
-          <p class="project-tag">Embedded systems</p>
-          <h3>Rock-Paper-Scissors Robot</h3>
-          <p>Built an STM32-based interactive robot integrating a camera, LCD, game logic, and software modules across the system. The completed robot achieved a winning rate near 100%.</p>
-          <a href="https://github.com/Ruizhi-Deng/rock-paper-scissors-robot">View repository <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="project">
-          <p class="project-tag">Mechanical design</p>
+      <article>
+        <div class="entry-heading">
           <h3>The Climber Rover</h3>
-          <p>Designed the mechanical structure of a robot that climbs poles of varying diameters and self-locks onto them without external power.</p>
-          <p class="project-foot">Design and Manufacture III · SJTU</p>
-        </article>
-      </div>
+          <time>2025</time>
+        </div>
+        <p>Designed the mechanical structure of a robot that climbs poles of varying diameters and self-locks onto them without external power.</p>
+      </article>
     </section>
 
-    <section class="section" id="education">
-      <div class="section-heading">
-        <p class="section-number">04</p>
-        <h2>Education</h2>
-      </div>
-      <div class="education-grid">
-        <article>
-          <p class="school">University of Michigan</p>
-          <h3>B.S. Computer Engineering</h3>
-          <p>Ann Arbor, Michigan · 2025–2027 expected</p>
-          <strong>GPA 4.0 / 4.0</strong>
-        </article>
-        <article>
-          <p class="school">Shanghai Jiao Tong University</p>
-          <h3>B.S. Mechanical Engineering</h3>
-          <p>Shanghai, China · 2023–2027 expected</p>
-          <strong>GPA 3.72 / 4.0</strong>
-        </article>
-      </div>
-      <div class="skills-row">
-        <p>Tools</p>
-        <ul aria-label="Technical skills">
-          <li>C++</li><li>C</li><li>Python</li><li>ROS</li><li>Git</li><li>CMake</li><li>STM32</li><li>Arduino</li><li>SolidWorks</li>
-        </ul>
-      </div>
+    <section>
+      <h2>Education</h2>
+      <article>
+        <div class="entry-heading">
+          <h3>University of Michigan</h3>
+          <time>2025 – 2027 expected</time>
+        </div>
+        <p>B.S. in Computer Engineering · GPA: 4.0 / 4.0</p>
+      </article>
+
+      <article>
+        <div class="entry-heading">
+          <h3>Shanghai Jiao Tong University</h3>
+          <time>2023 – 2027 expected</time>
+        </div>
+        <p>B.S. in Mechanical Engineering · GPA: 3.72 / 4.0</p>
+      </article>
     </section>
 
-    <section class="section awards">
-      <div class="section-heading">
-        <p class="section-number">05</p>
-        <h2>Selected honors</h2>
-      </div>
+    <section>
+      <h2>Selected Honors</h2>
       <ul>
-        <li><span>Champion & Excellence Award</span><span>China University Intelligent Robot Creative Competition · 2025</span></li>
-        <li><span>Division Finalist</span><span>VEX U World Championships · 2025</span></li>
-        <li><span>Champion</span><span>China University Intelligent Robot Creative Competition · 2024</span></li>
+        <li>Champion & Excellence Award, China University Intelligent Robot Creative Competition, 2025</li>
+        <li>Division Finalist, VEX U World Championships, 2025</li>
+        <li>Champion, China University Intelligent Robot Creative Competition, 2024</li>
       </ul>
     </section>
 
-    <section class="contact" id="contact">
-      <p class="eyebrow">Let’s connect</p>
-      <h2>Interested in robots that work in the real world.</h2>
-      <div class="contact-links">
-        <a href="mailto:rzdeng@umich.edu">rzdeng@umich.edu</a>
-        <a href="https://github.com/Ruizhi-Deng">GitHub <span aria-hidden="true">↗</span></a>
-        <a href="https://www.linkedin.com/in/ruizhi-deng">LinkedIn <span aria-hidden="true">↗</span></a>
-      </div>
+    <section>
+      <h2>Skills</h2>
+      <p>C++, C, Python, ROS, Git, CMake, STM32, Arduino, SolidWorks</p>
     </section>
-  </main>
 
-  <footer>
-    <p>© 2026 Ruizhi Deng</p>
-    <a href="#top">Back to top ↑</a>
-  </footer>
+    <footer>
+      <p>Last updated September 2026</p>
+    </footer>
+  </main>
 </body>
 </html>
